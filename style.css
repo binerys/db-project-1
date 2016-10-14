@@ -1,0 +1,139 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font-family: avenir, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h2 { 
+	font: bold normal 1.4em avenir, sans-serif;
+	font-size:18px;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	text-align: center;
+	letter-spacing:6px;
+	padding-top: 15%;
+	padding-bottom: 80px;
+	}
+.home{
+	background-image:url("airplane.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:800px;
+	position: relative;
+	margin-top: -2%;
+	background-attachment: fixed;
+
+}
+
+.title{
+	color: white;
+	font-family: bold normal 1.9em avenir, sans-serif;
+	letter-spacing: 10px;
+	text-align: left;
+	position: absolute;
+	margin-top: 320px;
+	margin-left: 45%;
+}
+
+h1, h2, p {
+	display: block;
+	font-weight: normal;
+	position: relative;
+	font-family: avenir;
+	margin-left:auto;
+	margin-right:auto;
+	width: 600px;
+	text-align: justify;
+}
+
+h2{
+	text-align:center;
+}	
+
+.arrow{
+	position: absolute;
+	margin-left: 44%;
+	margin-top: 44%;
+}
+
+.about{
+	height:800px;
+}
+.events{
+	
+background-image:url("plane2.jpeg"), url("blackbar.png");
+background-repeat: no-repeat, no-repeat;
+background-size: cover;
+position: relative, center;
+height:800px;
+margin-top: -2%;
+background-attachment: fixed;
+}
+
+
+
+.events{
+	color:white;
+
+}
+
+.events h2{
+	color:white;
+}
+
+.datelist{
+	position:absolute;
+	float:left;
+	margin-left: auto;
+	text-align:right;
+}
+
+.eventlist{
+	position:relative;
+	float:right;
+	text-align:left;
+	margin-right: 100px;
+}
+
+.contact{
+	height: 600px;
+}
+
+.contact p{
+	text-align:center;
+}
+
+.planeimage{
+background-image:url("plane1.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height:800px;
+margin-top: -2%;
+background-attachment: fixed;
+}
+
+footer{
+	background-color: #0d0d0d;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+}
+
+footer p{
+	padding-top: 10px;
+	color:white;
+	text-align: center;
+}
