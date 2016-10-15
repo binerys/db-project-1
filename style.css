@@ -3,10 +3,9 @@ html {
 	padding: 0;
 	}
 body { 
-	font-family: avenir, sans-serif;
+	font-family: 'Lato', sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
 	}
@@ -15,7 +14,7 @@ p {
 	text-align: justify;
 	}
 h2 { 
-	font: bold normal 1.4em avenir, sans-serif;
+	font: bold normal 1.4em 'Montserrat', sans-serif;
 	font-size:18px;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
@@ -25,6 +24,28 @@ h2 {
 	padding-top: 15%;
 	padding-bottom: 80px;
 	}
+
+.plane-nav {
+	font:'Montserrat', sans-serif;
+	width:100%;
+	top:10px;
+	position:absolute;
+	z-index:100;
+}
+
+.plane-nav ul {
+	float: right;
+}
+
+.plane-nav li a{
+	color:#fff;
+}
+
+.plane-nav li a:hover{
+	color:#337ab7;
+}
+
+
 .home{
 	background-image:url("airplane.jpg");
 	background-repeat: no-repeat;
@@ -33,12 +54,13 @@ h2 {
 	position: relative;
 	margin-top: -2%;
 	background-attachment: fixed;
-
 }
+
+
 
 .title{
 	color: white;
-	font-family: bold normal 1.9em avenir, sans-serif;
+	font-family: bold normal 1.9em 'Montserrat', sans-serif;
 	letter-spacing: 10px;
 	text-align: left;
 	position: absolute;
@@ -46,11 +68,15 @@ h2 {
 	margin-left: 45%;
 }
 
+.title img {
+	padding-top:160px;
+}
+
 h1, h2, p {
 	display: block;
 	font-weight: normal;
 	position: relative;
-	font-family: avenir;
+	font-family: 'Montserrat';
 	margin-left:auto;
 	margin-right:auto;
 	width: 600px;
@@ -61,24 +87,20 @@ h2{
 	text-align:center;
 }	
 
-.arrow{
-	position: absolute;
-	margin-left: 44%;
-	margin-top: 44%;
-}
 
 .about{
 	height:800px;
 }
+
 .events{
 	
-background-image:url("plane2.jpeg"), url("blackbar.png");
-background-repeat: no-repeat, no-repeat;
-background-size: cover;
-position: relative, center;
-height:800px;
-margin-top: -2%;
-background-attachment: fixed;
+	background-image:url("plane2.jpeg"), url("blackbar.png");
+	background-repeat: no-repeat, no-repeat;
+	background-size: cover;
+	position: relative, center;
+	height:800px;
+	margin-top: -2%;
+	background-attachment: fixed;
 }
 
 
@@ -90,6 +112,16 @@ background-attachment: fixed;
 
 .events h2{
 	color:white;
+}
+
+.table-wrap {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table.borderless td,table.borderless th{
+     border: none !important;
 }
 
 .datelist{
@@ -115,13 +147,13 @@ background-attachment: fixed;
 }
 
 .planeimage{
-background-image:url("plane1.jpeg");
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-height:800px;
-margin-top: -2%;
-background-attachment: fixed;
+	background-image:url("plane1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height:800px;
+	margin-top: -2%;
+	background-attachment: fixed;
 }
 
 footer{
